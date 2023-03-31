@@ -244,7 +244,7 @@ if selected == "Interactive Data Analysis":
         # Render the map in Streamlit
         folium_static(m)
     elif chart_select == 'Upper lake' :
-        df = pd.read_csv('UPLake.csv')
+        df = pd.read_csv('UPlake.csv')
         st.subheader('Upper Lake')
 
     elif chart_select == 'Lower lake' :
