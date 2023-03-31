@@ -247,6 +247,10 @@ if selected == "Interactive Data Analysis":
         df = pd.read_csv('UPLake.csv')
         st.subheader('Upper Lake')
 
+    elif chart_select == 'Lower lake' :
+        df = pd.read_csv('merged_data_lowerlake.csv')
+        st.subheader('Lower Lake')
+
     # add a checkbox to show/hide dataset
     show_data = st.sidebar.checkbox("Show dataset")
 
