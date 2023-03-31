@@ -284,7 +284,7 @@ if selected == "Interactive Data Analysis":
     show_data = st.sidebar.checkbox("Show dataset")
 
     if show_data:
-        st.write(df.head())
+        st.write(df)
 
     global numeric_columns
     try:
