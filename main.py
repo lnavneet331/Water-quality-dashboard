@@ -261,6 +261,7 @@ if selected == "Interactive Data Analysis":
         # Render the map in Streamlit
         folium_static(m)
 
+    
     elif chart_select == 'Lower lake' :
         df = pd.read_csv('merged_data_lowerlake.csv')
         st.subheader('Lower Lake')
